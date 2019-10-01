@@ -1,1 +1,18 @@
 @charset "ISO-8859-1";
+#hello{
+	color: red;
+}
+.test{
+	font-style: italic;
+}
+#first{
+	border: 1px solid black;
+	height: 500px;
+	width: 500px;
+	
+}
+#second{
+	border: 2px solid yellow;
+	height:100px;
+	width: 100px;
+}
