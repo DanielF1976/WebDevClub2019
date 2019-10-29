@@ -14,6 +14,12 @@ a:hover{
 #DJF
 {
 	float: left;
-	margin; 0 15px 20px 0;
+	margin: 0 15px 20px 0;
 	animation: fadeInLeft 2s ease-out;
+}
+
+.body{
+	
+	border: solid black;
+	background-color: light blue;
 }
