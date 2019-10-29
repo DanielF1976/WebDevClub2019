@@ -8,4 +8,9 @@ a:hover{
 	color: blue;
 }
 
-
+#DJF
+{
+	float: left;
+	margin; 0 15px 20px 0;
+	animation: fadeInLeft 2s ease-out;
+}
