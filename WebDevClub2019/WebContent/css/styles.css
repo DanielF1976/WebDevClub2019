@@ -11,6 +11,13 @@ a:hover{
 	color: blue;
 }
 
+#header{
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 1;
+}
+
 #DJF
 {
 	float: left;
