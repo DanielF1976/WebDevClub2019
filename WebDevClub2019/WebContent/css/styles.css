@@ -3,7 +3,7 @@
 .nav{
 	margin: 2pt;
 }
-.container p{
+.container{
 	border: 1px solid black;
 }
 
@@ -17,7 +17,11 @@ a:hover{
 	background-color: white;
 	z-index: 1;
 }
-
+#nav li{
+	padding: 6px;
+	margin: 2pt;
+	border: red;
+}
 #DJF
 {
 	float: left;
@@ -34,7 +38,5 @@ a:hover{
 	
 
 .body{
-	
-	border: solid black;
-	background-color: light blue;
+		background-color: light blue;
 }
