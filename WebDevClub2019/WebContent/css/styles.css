@@ -1,26 +1,45 @@
 @charset "ISO-8859-1";
 
-.nav{
+body{
+	font-family: Times;
+	background-color: light blue:
+}
+
+div.mainContainer{
+	font-family: Times;
+	background-color:sky blue;
+	border: 1px solid black;
+}
+
+div.ulNav{
 	margin: 2pt;
 }
-.container{
-	border: 1px solid black;
+
+header
+{
+	font-family: Times;
+	background-color: blue:
+	border: 3px solid red;
+	position: sticky;
+	top: 0;
+	z-index: 1;
 }
 
 a:hover{
 	color: blue;
 }
 
-#header{
-	position: sticky;
-	top: 0;
-	background-color: white;
-	z-index: 1;
-}
+
 #nav li{
 	padding: 6px;
 	margin: 2pt;
 	border: red;
+}
+
+h1
+{
+	font-style:bold;
+	font-color:red;
 }
 #DJF
 {
@@ -36,7 +55,3 @@ a:hover{
 	to{opacity:1}
 }
 	
-
-.body{
-		background-color: light blue;
-}
