@@ -1,50 +1,65 @@
 @charset "ISO-8859-1";
-
 body{
 	font-family: Times;
-	background-color: light blue:
-}
-
-div.mainContainer{
-	font-family: Times;
-	background-color:sky blue;
-	border: 1px solid black;
-}
-
-div.ulNav{
-	margin: 2pt;
+	background-color: light blue;
 }
 
 header
 {
-	font-family: Times;
-	background-color: blue:
 	border: 3px solid red;
 	position: sticky;
 	top: 0;
 	z-index: 1;
 }
 
-a:hover{
-	color: blue;
+a:hover
+{
+	color: black;
 }
 
+nav.navigation
+{
+	color:red;
+	border: 1px solid red;
+	padding:3px;
+}
 
-#nav li{
-	padding: 6px;
+a.navItem
+{
 	margin: 2pt;
-	border: red;
 }
 
 h1
 {
 	font-style:bold;
-	font-color:red;
+	color:red;
 }
+
 #DJF
 {
-	float: left;
 	margin: 0 15px 20px 0;
+	animation: fadeInLeft 2s ease-out;
+}
+@keyframes fadeInLeft{
+	from{
+	opacity: 0;
+	transforms: translatex(-60px)
+	}
+	to{opacity:1}
+}
+
+figure.education
+{
+	width:250px;
+	height:300px;
+}
+#DJFeducation1
+{
+	width:125px;
+	height:225px;
+	
+	margin: 0 15px 20px 0;
+	
 	animation: fadeInLeft 2s ease-out;
 }
 @keyframes fadeInLeft{
