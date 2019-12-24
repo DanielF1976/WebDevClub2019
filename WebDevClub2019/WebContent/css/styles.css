@@ -1,7 +1,7 @@
 @charset "ISO-8859-1";
 body{
 	font-family: Times;
-	background-color: light blue;
+	background-color: smoke;
 }
 
 header
@@ -10,24 +10,31 @@ header
 	position: sticky;
 	top: 0;
 	z-index: 1;
+	background-color:white;
 }
 
-a:hover
+nav a:hover
 {
-	color: black;
+	color: red;
 }
 
 nav.navigation
 {
 	color:red;
 	border: 1px solid red;
-	padding:3px;
+	padding:6px;
 }
 
 a.navItem
 {
-	margin: 2pt;
+	color:black;
+	margin: 5pt;
 }
+a:hover
+{
+	color: red;
+}
+
 
 h1
 {
@@ -57,9 +64,7 @@ figure.education
 {
 	width:125px;
 	height:225px;
-	
 	margin: 0 15px 20px 0;
-	
 	animation: fadeInLeft 2s ease-out;
 }
 @keyframes fadeInLeft{
@@ -69,4 +74,11 @@ figure.education
 	}
 	to{opacity:1}
 }
+	
+footer
+{
+	border: 3px solid black;
+	background:red;
+	color:white;
+}	
 	
